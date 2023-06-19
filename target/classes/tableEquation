@@ -1,4 +1,5 @@
 CREATE TABLE equations (
     id serial PRIMARY KEY,
-    equation varchar(255)
+    equation varchar(255),
+    root REAL
 )
